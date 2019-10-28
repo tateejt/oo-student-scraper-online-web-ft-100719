@@ -10,7 +10,7 @@ class CommandLineInterface
     make_students
     add_attributes_to_students
     display_students
-  end
+  en
 
   def make_students
     students_array = Scraper.scrape_index_page(BASE_PATH + 'index.html')
